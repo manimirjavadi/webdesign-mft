@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Challenge: Product Catalog</title>
+    <style>
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 28px;
+        text-decoration: underline;
+      }
+
+      /* Product Card Styles */
+      .product-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        margin: 20px;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .product-title {
+        font-size: 20px;
+        font-family: "Times New Roman", serif;
+        margin-bottom: 10px;
+      }
+
+      .product-description {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .product-price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      /* Highlighted Product */
+      #highlighted-product {
+        background-color: #ffcc00;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Product Catalog</h1>
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <div class="product-title">Product 1</div>
+      <div class="product-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+      <div class="product-price">$19.99</div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <div class="product-title">Product 2</div>
+      <div class="product-description">
+        Suspendisse ut justo eget libero viverra cursus.
+      </div>
+      <div class="product-price">$24.99</div>
+    </div>
+
+    <!-- Product 3 (Highlighted) -->
+    <div class="product-card" id="highlighted-product">
+      <div class="product-title">Product 3 (Highlighted #ffcc00)</div>
+      <div class="product-description">
+        Pellentesque eu enim eget justo malesuada vehicula.
+      </div>
+      <div class="product-price">$29.99</div>
+    </div>
+  </body>
+</html>

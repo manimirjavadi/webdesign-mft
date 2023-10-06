@@ -1,0 +1,13 @@
+/* This is a css stylesheet */
+.paragraph {
+  font-family: Verdana;
+}
+
+.redColor {
+  font-weight: bold;
+}
+
+#paragraphOne {
+  font-size: 24px;
+  font-weight: bold;
+}

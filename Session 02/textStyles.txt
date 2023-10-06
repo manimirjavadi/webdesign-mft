@@ -1,0 +1,4 @@
+backgoundColor = camelCase
+BackgroundColor = PascalCase
+background-color = kebab-case
+background_color = snake_case 

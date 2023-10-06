@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Challenge: Product Comparison Table</title>
+    <style>
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Table Styles */
+      table {
+        width: 80%;
+        background-color: #fff;
+        margin: 20px auto;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+
+      th {
+        background-color: #007bff;
+        color: #fff;
+      }
+
+      /* Highlighted Row Styles */
+      .highlighted-row {
+        background-color: #ffcc00;
+      }
+
+      /* Product Styles */
+      .product-name {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .product-details {
+        font-size: 14px;
+        color: #666;
+      }
+
+      .product-price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      /* Link Styles */
+      .product-link {
+        text-decoration: none;
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Product Comparison Table</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Details</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="product-name">Product A</td>
+          <td class="product-details">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </td>
+          <td class="product-price">$19.99</td>
+        </tr>
+        <tr class="highlighted-row">
+          <td class="product-name">Product B</td>
+          <td class="product-details">
+            Suspendisse ut justo eget libero viverra cursus.
+          </td>
+          <td class="product-price">$24.99</td>
+        </tr>
+        <tr>
+          <td class="product-name">Product C</td>
+          <td class="product-details">
+            Pellentesque eu enim eget justo malesuada vehicula.
+          </td>
+          <td class="product-price">$29.99</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      Find out more about our products:
+      <a class="product-link" href="#">Learn More</a>
+    </p>
+  </body>
+</html>

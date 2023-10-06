@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Challenge: Pricing Table</title>
+    <style>
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Pricing Table Styles */
+      .pricing-table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+      }
+
+      .pricing-table th,
+      .pricing-table td {
+        border: 1px solid #ddd;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .pricing-table th {
+        background-color: #333;
+        color: #fff;
+        font-size: 18px;
+      }
+
+      .pricing-table td {
+        font-size: 16px;
+      }
+
+      .pricing-table .highlight {
+        background-color: #ffcc00;
+      }
+
+      .pricing-table .highlight td {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="pricing-table">
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th>Price</th>
+          <th>Features</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic</td>
+          <td>$10/month</td>
+          <td>5 GB Storage<br />10 Email Accounts<br />24/7 Support</td>
+          <td><a href="#" class="highlight">Select</a></td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>$25/month</td>
+          <td>20 GB Storage<br />20 Email Accounts<br />24/7 Support</td>
+          <td><a href="#">Select</a></td>
+        </tr>
+        <tr>
+          <td>Enterprise</td>
+          <td>$50/month</td>
+          <td>50 GB Storage<br />50 Email Accounts<br />24/7 Support</td>
+          <td><a href="#">Select</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
