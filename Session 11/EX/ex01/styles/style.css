@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.header {
+  padding: 20px 24px;
+}
+
+.list-heading {
+  padding: 10px 24px;
+  background-color: #f2f4f5;
+  border: 1px 0 solid 1px #e4e7e9;
+}
+
+.list-title {
+  display: inline-block;
+}
+
+.list-title.products {
+  width: 44%;
+}
+
+.list-title.price {
+  width: 15%;
+}
+
+.list-title.stock {
+  width: 15%;
+}
+
+.list-title.actions {
+  width: 24%;
+}
+
+.items-container {
+  padding: 24px;
+}
+
+.product-details {
+  position: relative;
+  width: 44%;
+}
+
+.product-details .product-text {
+  padding: 0;
+  position: absolute;
+  top: 22%;
+  display: inline-block;
+  width: 72%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #475156;
+}
