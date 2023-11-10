@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="checkout">
+            <div class="information">
+                <div class="billing-information">
+                    <h1>Billing Information</h1>
+                    <form class="billing-information-form">
+                        <div class="field grow-1">
+                            <div>
+                                <label for="name">User name</label>
+                            </div>
+                            <input placeholder="First Name" id="name" name="name" type="text" />
+                        </div>
+                        <div class="field grow-1">
+                            <div>
+                                <label for="lastname" style="color: white; user-select: none;">s</label>
+                            </div>
+                            <input placeholder="Last Name" id="lastname" name="lastname" type="text" />
+                        </div>
+                        <div class="field grow-2">
+                            <div>
+                                <label for="company">Company Name</label>
+                            </div>
+                            <input placeholder="Company Name" id="company" name="company-name" type="text" />
+                        </div>
+                        <div class="field grow-4">
+                            <div>
+                                <label for="address">Address</label>
+                            </div>
+                            <input id="address" name="address" type="text" />
+                        </div>
+                        <div class="field">
+                            <div>
+                                <label for="country">Country</label>
+                            </div>
+                            <select id="country">
+                                <option id="0" value="iran">Iran</option>
+                                <option id="1" value="us">United States</option>
+                                <option id="2" value="uk">United Kingdom</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <div>
+                                <label for="region">Region</label>
+                            </div>
+                            <select id="region">
+                                <option>Asia</option>
+                                <option>Europe</option>
+                                <option>America</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <div>
+                                <label for="city">City</label>
+                            </div>
+                            <select id="city">
+                                <option>Tehran</option>
+                                <option>New York</option>
+                                <option>London</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <div>
+                                <label for="zip">Zip Code</label>
+                            </div>
+                            <input placeholder="Zip Code" id="zip" name="zip" type="text" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="summary"></div>
+        </section>
+    </main>
+</body>
+
+</html>
