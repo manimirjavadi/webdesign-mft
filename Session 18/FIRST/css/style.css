@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aedaa6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 600px;
+}
+.card__heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 12px;
+  border-bottom: 1px solid #565656;
+}
+.card__heading__backbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  color: #565656;
+}
+.card__heading__icon svg {
+  height: 24px;
+  width: 24px;
+  fill: #565656;
+  cursor: pointer;
+}
+.card__heading__icon svg:hover {
+  fill: red;
+}
+.card__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card__body__image {
+  padding: 12px;
+}
+.card__body__image--image {
+  height: 240px;
+  width: 200px;
+  background-color: #aedaa6;
+  border-radius: 5px;
+  background: url("../img/homeoffice.jpg");
+  background-size: contain;
+}
+.card__body__description {
+  padding: 30px;
+  border-left: 1px #727272 solid;
+}
+.card__body__description--title h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #565656;
+}
+.card__body__description--title h2 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #727272;
+}
+.card__body__description--price {
+  font-size: 30px;
+  color: #565656;
+  padding-top: 30px;
+}
+.card__body__description--details {
+  padding: 20px 0;
+  font-size: 12px;
+}
+.card__body__description--actions button {
+  border: none;
+  background: none;
+  padding: 5px 2px;
+  font-size: 18px;
+  outline: 1px solid #727272;
+}
+
+/*# sourceMappingURL=style.css.map */

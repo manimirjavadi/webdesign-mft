@@ -1,0 +1,88 @@
+@import "body";
+@import "mixins";
+
+.card {
+  background-color: white;
+  width: 600px;
+
+  &__heading {
+    @include flexbox(row, space-between, center);
+    font-size: 12px;
+    padding: 12px;
+    border-bottom: 1px solid $dark_gray;
+
+    &__backbtn {
+      @include flexbox(row, flex-start, center);
+      gap: 8px;
+      color: $dark_gray;
+    }
+
+    &__icon {
+      svg {
+        height: 24px;
+        width: 24px;
+        fill: $dark_gray;
+        cursor: pointer;
+
+        &:hover {
+          fill: red;
+        }
+      }
+    }
+  }
+
+  &__body {
+    @include flexbox();
+
+    &__image {
+      padding: 12px;
+
+      &--image {
+        height: 240px;
+        width: 200px;
+        background-color: $green;
+        border-radius: 5px;
+        background: url("../img/homeoffice.jpg");
+        background-size: contain;
+      }
+    }
+
+    &__description {
+      padding: 30px;
+      border-left: 1px $light_gray solid;
+
+      &--title {
+        h1 {
+          font-size: 30px;
+          font-weight: 600;
+          color: $dark_gray;
+        }
+        h2 {
+          font-size: 12px;
+          font-weight: 500;
+          color: $light_gray;
+        }
+      }
+
+      &--price {
+        font-size: 30px;
+        color: $dark_gray;
+        padding-top: 30px;
+      }
+
+      &--details {
+        padding: 20px 0;
+        font-size: 12px;
+      }
+      &--actions {
+        button {
+          border: none;
+          background: none;
+          padding: 5px 2px;
+          font-size: 18px;
+          outline: 1px solid $light_gray;
+        }
+      }
+    }
+  }
+}
